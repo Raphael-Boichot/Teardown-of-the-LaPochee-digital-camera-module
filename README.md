@@ -30,8 +30,13 @@ The bottom shows the communication port with the mobile phone. The port is a 8 p
 ![](/Pictures/Lapochée_rear_2.JPG)
 (Credit: Raphaël BOICHOT)
 
-The back side shows the battery compartment and a 3 positions stand. Not sure why why the stand is longer than the device itself, I must miss something.
+The back side shows the battery compartment and a 3 positions stand. Not sure why the stand is longer than the device itself. Design I guess...
 
+![](/Pictures/Lapochée_rear_open.JPG)
+![](/Pictures/Lapochée_2xAAA_batteries.JPG)
+(Credit: Raphaël BOICHOT)
+
+The device works with 2xAAA batteries which was a very fancy use before the flooding of market with shitty lithium batteries.
 
 # Acknowledgements
 - Author want to thank Frédéric Mercier for the finding of the Lapochée camera module on Mercari in Japan.
