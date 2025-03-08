@@ -11,7 +11,20 @@ But I guess you landed here for some good old vintage electronic porn and not to
 # Pictures from the inside and comments
 
 ![](/Pictures/Lapochée_2.JPG)
-(Crédit Raphaël BOICHOT)
+(Credit: Raphaël BOICHOT)
+
+The device exudes the 2000s with its white round design anf the touch of blue plastic.
+
+![](/Pictures/Lapochée_side.JPG)
+(Credit: Raphaël BOICHOT)
+
+The right side features the on/off button and a contrast thumbwheel for the display. The device has no LED or speaker / buzzer to indicate its state. It's completely mute. Mine shows no sign of life due to defective display.
+
+![](/Pictures/Lapochée_bottom.JPG)
+(Credit: Raphaël BOICHOT)
+
+The bottom shows the communication port with the mobile phone. The port is a 8 pins something that I cannot identify. It's not a common plug.
+
 
 # Acknowledgements
 - Author want to thank Frédéric Mercier for the finding of the Lapochée camera module on Mercari in Japan.
