@@ -8,6 +8,11 @@ I finally got the Lapochée camera module in March 2025 thanks to a local contac
 
 But I guess you landed here for some good old vintage electronic porn and not to see a draw my life.
 
+# Pictures from the inside and comments
+
+![](/Pictures/Lapochée_2.JPG)
+(Crédit Raphaël BOICHOT)
+
 # Acknowledgements
 - Author want to thank Frédéric Mercier for the finding of the Lapochée camera module on Mercari in Japan.
 - Thanks also to Razole for providing me some factory sealed M64283FPs from under the counter.
