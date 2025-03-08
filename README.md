@@ -1,0 +1,1 @@
+# Teardown-of-the-LaPochee-digital-camera-module
