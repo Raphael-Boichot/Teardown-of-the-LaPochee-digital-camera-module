@@ -36,7 +36,7 @@ The back side shows the battery compartment and a 3 positions stand. Not sure wh
 ![](/Pictures/Lapochée_2xAAA_batteries.JPG)
 (Credit: Raphaël BOICHOT)
 
-The device works with 2xAAA batteries which was a very fancy use before the flooding of market with shitty lithium batteries.
+The device works with 2xAAA batteries which was a very fancy habit before the flooding of market with shitty lithium batteries. Because yes, you were yet able to use AAA rechargeable batteries (and reuse them elsewhere) in these old times.
 
 # Acknowledgements
 - Author want to thank Frédéric Mercier for the finding of the Lapochée camera module on Mercari in Japan.
