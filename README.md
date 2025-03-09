@@ -43,7 +43,7 @@ You can easily go further in the head assembly / disassembly if you are familiar
 At this step removing the main PCB is very easy. The front side mainly features a Mitsubishi M64916FP chip. Although sharing the numbering of Mitsubishi chips (FP termination seems to be used for home appliance, M64 is a common prefix of several Mitsubishi chips), this chip is not documented anywhere. By tracing some connections I conclude that this is probably a custom driver chip for the LCD display and not a kind of MAC-GBD like chip driving the sensor.
 
 ![](/Pictures/Lapochée_serial_8_pins_connection.JPG)
-Some details of the bottom serial connector with the plastic plug removed. It's not a common socket.
+Some details of the bottom serial connector with the plastic plug removed. It's not a common socket. It features 8 pins.
 
 ![](/Pictures/Lapochée_main_board_with_LCD.JPG)
 Front side of the PCB with the LCD mounted on brackets. A black rubber damper ensure a very tight fit within the shell in case of shock. The LCD assembly can be easily removed from the main PCB by just unclipping it. Nothing is glued. It is clearly meant to be repairable.
