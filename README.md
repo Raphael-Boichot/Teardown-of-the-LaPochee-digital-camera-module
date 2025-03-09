@@ -59,8 +59,6 @@ The last noticeable chip is a Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The 
 The display assembly is very easy to dismount and neatly designed. The LCD is a 128x128 pixels Sharp T2 V M1128CP with a 24 pins ribbon connector, probably manufactured in March 1999. I do not find any datasheet for this display. Mine is defective and stay completely dark even with the front polarizer removed. I have very thin hope to find a replacement or a compatible one due to the absence of datasheet for both the LCD and the M64916FP driver chip. They both can be totally custom for this device.
 
 ![](/Pictures/Lapochee_lens_front.jpg)
-AR SUB is for "Artificial Retina" sub board. All sensors from the M6428X series are called like this because it is much cooler than "el cheapo CMOS sensor" (what it is).
-
 ![](/Pictures/Lapochee_lens_rear.jpg)
 The lens used is very similar to the Game Boy Camera one with a screw mount to adjust focus in factory.
 
@@ -68,6 +66,8 @@ The lens used is very similar to the Game Boy Camera one with a screw mount to a
 The sensor uses a 9 wires connections. 
 
 ![](/Pictures/Lapochee_sensor_PCB_rear.jpg)
+AR SUB is for "Artificial Retina" sub board. All sensors from the M6428X series are called like this because it is much cooler than "el cheapo CMOS sensor" (what it is).
+
 ![](/Pictures/Lapochee_sensor_PCB_front_M64283FP.jpg)
 The PCB comprises two caps and one inductance, similar to the Game Boy Camera. I guess this is exactly the same electrical circuit. The two round test pads are connected to floating pins (see next, this is interesting). Strangely enough, one pin has solder residues (maybe accidental).
 
