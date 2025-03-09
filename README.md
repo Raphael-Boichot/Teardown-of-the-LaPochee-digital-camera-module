@@ -1,6 +1,6 @@
 # Teardown of the LaPochée（ラポッシュ）digital camera module
 
-The Lapochée is a digital camera module accompanying the THZ43 Chiaro mobile phone released in May 1999 by Tu-Ka mobile phone company and operator (then merged in KDDI Corporation). Both phone and camera module were made by Mitsubishi. This was technically the **first mobile phone equipped with a digital camera** (and among the first low-end market digital cameras too) so it kind of belongs to history.
+The **Lapochée** is a digital camera module accompanying the THZ43 Chiaro mobile phone released in May 1999 by Tu-Ka mobile phone company and operator (then merged in KDDI Corporation). Both phone and camera module were made by Mitsubishi. This was technically the **first mobile phone equipped with a digital camera** (and among the first low-end market digital cameras too) so it kind of belongs to history.
 
 Fun fact, "LaPochée" is probably a name designed to sound cute and French but it means nothing in French apart an approximate translation of "The pocket" ("La Poche"). And it sounds a bit ridiculous in French also.
 
