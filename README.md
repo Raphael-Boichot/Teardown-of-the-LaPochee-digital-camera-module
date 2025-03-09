@@ -4,27 +4,27 @@ The **Lapochée** is a digital camera module accompanying the THZ43 Chiaro mobil
 
 Fun fact, "LaPochée" is probably a name designed to sound cute and French. It is an approximate translation of "The pocket" ("La Poche") and sounds a bit weird in French.
 
-The LaPochée camera module acquired a certain celebrity in the Game Boy Camera nerds community as it shows a potential hardware filiation with the Game Boy Camera according to various Mitsibishi sources frome 1999-2000. It might or might not share the same analog light sensor from the M6428X series. I tried to find this camera module for years. By the time, addict to old electronic stuff I landed on some M64283FP sensors from factory (possibly used in the LaPochée) by pure luck and published [Arduino codes codes to drive them](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor). The M64283FP sensor is basically a Game Boy Camera M64282FP sensor with more functions, but pin compatible. You will see why I insist on this sensor later.
+The LaPochée camera module acquired a certain celebrity in the Game Boy Camera nerds community as it shows a potential hardware filiation with the Game Boy Camera according to various Mitsibishi sources frome 1999-2000. It might or might not share the same analog light sensor from the M6428X series. I tried to find this camera module for years. By the time, addict to old electronic stuff, I obtained some M64283FP sensors from factory (possibly used in the LaPochée) by pure luck and published [Arduino codes codes to drive them](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor). The M64283FP sensor is basically a Game Boy Camera M64282FP sensor with more functions, but pin compatible. You will see why I insist on this sensor later.
 
-I finally got the Lapochée camera module in March 2025 thanks to a local contact in Japan (see aknowledgments). The device was advertised as electronic junk but in pristine state according to seller images. It was delivered in its factory plastic bag still with the protective film on front face ([click here for some ASMR](/Pictures/Lapochee_ASMR.mp4)). Sadly for me, the LCD display was burnt beyond repair (both the polarizer and the liquid crystal panel were completely dark). This is common with old Japanese electronic products and due to overheating. 
+I finally got the Lapochée camera module in March 2025 thanks to a local contact in Japan (see aknowledgments). The device was advertised as electronic junk but in pristine state according to seller images. It was delivered in its factory plastic bag still with the protective film on front face ([click here for some ASMR](/Pictures/Lapochee_ASMR.mp4)). Sadly for me, the LCD display was burnt beyond repair for my current skill (both polarizers are completely dark). This is common with old Japanese electronic products and due to overheating / violent sun exposure. 
 
-I do not own the user manual but I am in search for it (feel free to contact me if you have one).
+I do not own the user manual but I am in search for it (feel free to contact me if you have one or a scan).
 
-But I guess you landed here for some good old vintage electronic porn and not to read a draw my life. Her we go.
+But I guess you landed here for some good old vintage electronic porn and not to read a draw my life. Let's dive into the beast !
 
 # Pictures from the outside / inside and comments
 
 ![](/Pictures/Lapochee_2.jpg)
-The device exudes the 2000s with its white round design anf the touch of blue plastic.
+The device exudes the 2000s with its white round design and the touch of blue transparent plastic.
 
 ![](/Pictures/Lapochee_side.jpg)
-The right side features the on/off button and a contrast thumbwheel for the display. The device has no LED or speaker / buzzer to indicate its state. It's completely mute. Mine shows no sign of life due to defective display.
+The right side features the on/off button and a contrast thumbwheel for the display. The device has no LED or speaker / buzzer to indicate its state. It's completely mute.
 
 ![](/Pictures/Lapochee_bottom.jpg)
-The bottom shows the communication port with the mobile phone. The port is a 8 pins something that I cannot identify. It's not a common plug.
+The bottom shows the communication port with the mobile phone. It's not a common plug, I have no idea what it is for the moment.
 
 ![](/Pictures/Lapochee_rear_2.jpg)
-The back side shows the battery compartment and a 3 positions stand. Not sure why the stand is longer than the device itself. Design I guess...
+The back side shows the battery compartment and a 3 positions stand. Not sure why the stand is longer than the device itself. Design I guess.
 
 ![](/Pictures/Lapochee_rear_open.jpg)
 PDZ43 must be the Mitsubishi factory name of the LaPochée module. I guess it references to the user manual I do not own.
