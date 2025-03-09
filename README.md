@@ -53,10 +53,16 @@ The display assembly is very easy to dismount and neatly designed. The LCD is a 
 The lens used is very similar to the Game Boy Camera one with a screw mount to adjust focus in factory.
 
 ![](/Pictures/Lapochée_sensor_PCB_ribbon.JPG)
+The sensor uses a 9 wires connections. 
+
 ![](/Pictures/Lapochée_sensor_PCB_rear.JPG)
 ![](/Pictures/Lapochée_sensor_PCB_front.JPG)
+The PCB comprises two caps and one inductance, similar to the Game Boy Camera. I guess this is exactly the same electrical circuit.
+
 ![](/Pictures/Lapochée_sensor_reference.png)
-The sensor uses a 9 wires connections. A quick look under a powerfull microscope shows that this is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera. Surprisingly, the sensor uses only 9 wires. A quick look at the front of the PCB shows that STRB and TADD pins which allows access to advanced functions, are just not connected. As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor.
+A quick look under a powerfull microscope shows that this is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera. A quick look at the front of the PCB shows that STRB and TADD pins which allows access to advanced functions, are just not connected. As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor.
+
+Without any way of firing the device, I cannot investigate more.
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
