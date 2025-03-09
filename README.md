@@ -83,5 +83,5 @@ To be continued if I find a replacement LCD or the motivation to replace the pol
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
 
 # Acknowledgements
-- Author want to thank **Frédéric Mercier** for the finding of the Lapochée camera module on Mercari in Japan.
+- Author want to warmly thank **Frédéric Mercier** for the finding of the Lapochée camera module on Mercari in Japan (and some other rare stuff).
 - Thanks also to Razole for providing me some factory sealed M64283FPs from under the counter.
