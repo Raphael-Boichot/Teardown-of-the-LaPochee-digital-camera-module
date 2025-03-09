@@ -48,7 +48,15 @@ The last noticeable chip is a Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The 
 ![](/Pictures/Lapochée_LCD_rear.JPG)
 The display assembly is very easy to dismount and neatly designed. The LCD is a 128x128 pixels Sharp M1128CP with a 22 pins ribbon connector. I do not find any reference for this display. Mine is defective and stay completely dark even with the polarizer removed. I have very thin hope to find a replacement or a compatible one due to the absence of datasheet for both the LCD and the M64916FP driver chip. They both can be totally custom for this device.
 
+![](/Pictures/Lapochée_lens_front.JPG)
+![](/Pictures/Lapochée_lens_rear.JPG)
+The lens used is very similar to the Game Boy Camera one with a screw mount to adjust focus in factory.
 
+![](/Pictures/Lapochée_sensor_PCB_ribbon.JPG)
+![](/Pictures/Lapochée_sensor_PCB_rear.JPG)
+![](/Pictures/Lapochée_sensor_PCB_front.JPG)
+![](/Pictures/Lapochée_sensor_reference.png)
+The sensor uses a 9 wires connections. A quick look under a powerfull microscope shows that this is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera. Surprisingly, the sensor uses only 9 wires. A quick look at the front of the PCB shows that STRB and TADD pins which allows access to advanced functions, are just not connected. As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor.
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
