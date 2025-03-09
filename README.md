@@ -54,7 +54,7 @@ The rear side contains all the meat: LCD assembly, flash memory and main MCU. Th
 The last noticeable chip is a Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The only information I can find is that the chip is a divided voltage generator for LCD drive, so the chip that send the high voltage signal to the display individual pixels to twist more or less the liquid crystals. This indicates that the LCD can display several gray levels.
 
 ![](/Pictures/Lapochée_LCD_front_with_bracket_and_damper.JPG)
-It looks wet because this is just after removing the polarizer to assess if any part can be salvaged from death.
+Detail of the LCD assembly. It looks wet because image was taken just after removing the polarizer to assess if any part can be salvaged.
 
 ![](/Pictures/Lapochée_LCD_rear.JPG)
 The display assembly is very easy to dismount and neatly designed. The LCD is a 128x128 pixels Sharp M1128CP with a 22 pins ribbon connector. I do not find any reference for this display. Mine is defective and stay completely dark even with the polarizer removed. I have very thin hope to find a replacement or a compatible one due to the absence of datasheet for both the LCD and the M64916FP driver chip. They both can be totally custom for this device.
