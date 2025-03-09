@@ -75,7 +75,7 @@ A quick look under a powerfull microscope shows that this is a 128x128 pixels [M
 ![](/Pictures/Lapochee_empty_shell_2.jpg)
 A quick look at the empty shell after disassembly. Reassembly is quick and simple in few minutes.
 
-To be continued...
+To be continued if I find a replacement LCD...
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
