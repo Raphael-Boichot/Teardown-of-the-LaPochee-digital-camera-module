@@ -40,18 +40,18 @@ The rotating head itself has two similar screws to remove in order to see the in
 You can easily go further in the head assembly / disassembly if you are familiar with the Game Boy Camera. It feel better than a Game Boy Camera thanks to two prongs on the metal ring that safely position the head in normal or selfy position. The design is more refined, while very similar. The sensor ribbon socket is smaller than the Game Boy Camera (must be a JST connector with 1 mm pitch).
 
 ![](/Pictures/Lapochee_PCB_front.jpg)
-At this step removing the main PCB is very easy. The front side mainly features a Mitsubishi M64916FP chip. Although sharing the numbering of Mitsubishi chips (FP termination seems to be used for home appliance, M64 is a common prefix of several Mitsubishi chips), this chip is not documented anywhere. By tracing some connections I conclude that this is probably a custom driver chip for the LCD display and not a kind of MAC-GBD like chip driving the sensor.
+At this step removing the main PCB is very easy. The front side mainly features a Mitsubishi M64916FP chip and an oscillating crystal (6.898594 MHz probably). Although sharing the numbering of Mitsubishi chips (FP termination seems to be used for home appliance, M64 is a common prefix of several Mitsubishi chips), this chip is not documented anywhere. By tracing some connections I conclude that this is probably a custom driver chip for the LCD display and not a kind of MAC-GBD like chip driving the sensor.
 
 ![](/Pictures/Lapochee_serial_8_pins_connection.jpg)
-Some details of the bottom serial connector with the plastic plug removed. It's not a common socket. It features 8 pins.
+Some details of the bottom serial connector with the plastic plug removed. It's not a common socket from that era. It features 8 pins.
 
 ![](/Pictures/Lapochee_main_board_with_LCD.jpg)
 Front side of the PCB with the LCD mounted on brackets. A black rubber damper ensure a very tight fit within the shell in case of shock. The LCD assembly can be easily removed from the main PCB by just unclipping it. Nothing is glued. It is clearly meant to be repairable.
 
 ![](/Pictures/Lapochee_PCB_rear.jpg)
-The rear side contains all the meat: LCD assembly, flash memory and main MCU. The flash memory is a 4MB / 3.3V only [M5M29KB800](/Datasheets/Renesas_M5M29KB.PDF) from Mitsubishi, commonly used in mobile phones from that era. The MCU is a 10 MHz 16-bit [M30610MCA](/Datasheets/Renesas_M5M29KB.PDF) microcontroller, also from Mitsubishi. The marking indicates that this is a 128 KB ROM, 10 KB RAM, mask ROM version 282. This MCU also has several 10 bits analog-to-digital converters (A/C) so I guess the sensor is directly driven by this chip, nothing else is required. 
+The rear side contains all the meat: LCD assembly, flash memory and main MCU. The flash memory is a 4MB / 3.3V only [M5M29KB800](/Datasheets/Renesas_M5M29KB.PDF) from Mitsubishi, commonly used in mobile phones from that era. The MCU is a 7 to 10 MHz 16-bit [M30610MCA](/Datasheets/Renesas_M5M29KB.PDF) microcontroller, also from Mitsubishi. The marking indicates that this is the 128 KB ROM, 10 KB RAM, mask ROM version 282. This MCU also has several 10 bits analog-to-digital converters (A/C) so I guess the sensor is directly driven by this chip, nothing else is required. 
 
-The last noticeable chip is a Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The only information I can find is that the chip is a divided voltage generator for LCD drive, so the chip that send the high voltage signal to the display individual pixels to twist more or less the liquid crystals. This indicates that the LCD can display several gray levels.
+The last noticeable chip is a Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The only information I can find is that the chip is a divided voltage generator for LCD drive, so the chip that sends the high voltage signal to the display individual pixels to twist more or less the liquid crystals. This indicates that the LCD can display several gray levels.
 
 ![](/Pictures/Lapochee_LCD_rear.jpg)
 The display assembly is very easy to dismount and neatly designed. The LCD is a 128x128 pixels Sharp M1128CP with a 22 pins ribbon connector. I do not find any datasheet for this display. Mine is defective and stay completely dark even with the polarizer removed. I have very thin hope to find a replacement or a compatible one due to the absence of datasheet for both the LCD and the M64916FP driver chip. They both can be totally custom for this device.
