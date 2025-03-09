@@ -56,7 +56,7 @@ The front PCB side (below the LCD display) contains all the meat: LCD assembly, 
 The last noticeable chip is a Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The only information I can find is that the chip is a divided voltage generator for LCD drive, so the chip that sends the high voltage signal to the display individual pixels to twist more or less the liquid crystals. This indicates that the LCD can display several gray levels.
 
 ![](/Pictures/Lapochee_LCD_rear.jpg)
-The display assembly is very easy to dismount and neatly designed. The LCD is a 128x128 pixels Sharp M1128CP with a 22 pins ribbon connector, probably manufactured in March 1999. I do not find any datasheet for this display. Mine is defective and stay completely dark even with the polarizer removed. I have very thin hope to find a replacement or a compatible one due to the absence of datasheet for both the LCD and the M64916FP driver chip. They both can be totally custom for this device.
+The display assembly is very easy to dismount and neatly designed. The LCD is a 128x128 pixels Sharp T2 V M1128CP with a 22 pins ribbon connector, probably manufactured in March 1999. I do not find any datasheet for this display. Mine is defective and stay completely dark even with the polarizer removed. I have very thin hope to find a replacement or a compatible one due to the absence of datasheet for both the LCD and the M64916FP driver chip. They both can be totally custom for this device.
 
 ![](/Pictures/Lapochee_lens_front.jpg)
 ![](/Pictures/Lapochee_lens_rear.jpg)
