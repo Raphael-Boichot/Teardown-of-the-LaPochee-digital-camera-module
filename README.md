@@ -46,7 +46,7 @@ At this step removing the main PCB is very easy. The front side mainly features 
 Some details of the bottom serial connector. It's not a socket I know, maybe something custom.
 
 ![](/Pictures/Lapochée_main_board_with_LCD.JPG)
-It looks wet because this is just after removing the polarizer to assess if any part can be salvaged from death.
+The LCD assembly can be easily removed from the main PCB by just unclipping it. Nothing is glued. It is clearly meant to be repairable.
 
 ![](/Pictures/Lapochée_PCB_rear.JPG)
 The rear side contains all the meat: LCD assembly, flash memory and main MCU. The flash memory is a 4MB / 3.3V only [M5M29KB800](/Datasheets/Renesas_M5M29KB.PDF) from Mitsubishi, commonly used in mobile phones from that era. The MCU is a 10 MHz 16-bit [M30610MCA](/Datasheets/Renesas_M5M29KB.PDF) microcontroller, also from Mitsubishi. The marking indicates that this is a 128 KB ROM, 10 KB RAM, mask ROM version 282. Pins are 5V tolerant. This MCU also has several 10 bits analog to digital converters so I guess the sensor is directly driven by this chip, nothing else is required. 
@@ -54,6 +54,8 @@ The rear side contains all the meat: LCD assembly, flash memory and main MCU. Th
 The last noticeable chip is a Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The only information I can find is that the chip is a divided voltage generator for LCD drive, so the chip that send the high voltage signal to the display individual pixels to twist more or less the liquid crystals. This indicates that the LCD can display several gray levels.
 
 ![](/Pictures/Lapochée_LCD_front_with_bracket_and_damper.JPG)
+It looks wet because this is just after removing the polarizer to assess if any part can be salvaged from death.
+
 ![](/Pictures/Lapochée_LCD_rear.JPG)
 The display assembly is very easy to dismount and neatly designed. The LCD is a 128x128 pixels Sharp M1128CP with a 22 pins ribbon connector. I do not find any reference for this display. Mine is defective and stay completely dark even with the polarizer removed. I have very thin hope to find a replacement or a compatible one due to the absence of datasheet for both the LCD and the M64916FP driver chip. They both can be totally custom for this device.
 
