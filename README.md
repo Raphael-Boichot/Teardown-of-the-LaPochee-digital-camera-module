@@ -63,10 +63,10 @@ The display assembly is very easy to dismount and neatly designed. The LCD is a 
 The lens used is very similar to the Game Boy Camera one with a screw mount to adjust focus in factory.
 
 ![](/Pictures/Lapochee_sensor_PCB_ribbon.jpg)
-The sensor uses a 9 wires connections. 
+The sensor uses a 9 wires "ribbon". The ribbon is secured at both ends with some adhesive tape (one is missing here because I had to remove it to detach the sensor sub PCB for imaging).
 
 ![](/Pictures/Lapochee_sensor_PCB_rear.jpg)
-AR SUB is for "Artificial Retina" sub board. All sensors from the M6428X series are called like this because it is much cooler than "el cheapo CMOS sensor" (what it is).
+AR SUB is for "Artificial Retina" sub board. All sensors from the M6428X series are called like this because it is much cooler than "el cheapo CMOS sensor" (what it was meant to be).
 
 ![](/Pictures/Lapochee_sensor_PCB_front_M64283FP.jpg)
 The PCB comprises two caps and one inductance, similar to the Game Boy Camera. I guess this is exactly the same electrical circuit. The two round test pads are connected to floating pins (see next, this is interesting). Strangely enough, one pin has solder residues (maybe accidental).
