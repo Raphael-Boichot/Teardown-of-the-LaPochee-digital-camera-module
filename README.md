@@ -38,6 +38,9 @@ You can easily go further in the head assembly / disassembly if you are familiar
 ![](/Pictures/Lapochée_PCB_front.JPG)
 At this step removing the main PCB is very easy. The front side mainly features a Mitsubishi M64916FP chip. Although sharing the numbering of Mitsubishi chips (FP termination seems to be used for home appliance, M64 is a common prefix of several Mitsubishi chips), this chip is not documented anywhere. By tracing some connections I conclude that this is probably a custom driver chip for the LCD display and not a kind of MAC-GBD like chip driving the sensor.
 
+![](/Pictures/Lapochée_serial_8_pins_connection.JPG)
+Some details of the bottom serial connector. It's not a socket I know, maybe something custom.
+
 ![](/Pictures/Lapochée_main_board_with_LCD.JPG)
 ![](/Pictures/Lapochée_PCB_rear.JPG)
 The rear side contains all the meat: LCD assembly, flash memory and main MCU. The flash memory is a 4MB / 3.3V only [M5M29KB800](/Datasheets/Renesas_M5M29KB.PDF) from Mitsubishi, commonly used in mobile phones from that era. The MCU is a 10 MHz 16-bit [M30610MCA](/Datasheets/Renesas_M5M29KB.PDF) microcontroller, also from Mitsubishi. The marking indicates that this is a 128 KB ROM, 10 KB RAM, mask ROM version 282. Pins are 5V tolerant. This MCU also has several 10 bits analog to digital converters so I guess the sensor is directly driven by this chip, nothing else is required. 
