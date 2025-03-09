@@ -72,12 +72,12 @@ The PCB comprises two caps and one inductance, similar to the Game Boy Camera. I
 The marking RF131111B (+AR SUB) is also written near the LCD ribbon socket on the main PCB (+AR MAIN) so I guess this is an internal reference number for the project.
 
 ![](/Pictures/Lapochee_sensor_reference.png)
-A quick look under a powerfull microscope shows that the image sensor is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera, as anticipated. A quick look at the front of the PCB shows that STRB and TADD pins which allows access to advanced functions, are just not connected (these are the two pins connected to the round test pads). As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor.
+A quick look under a powerfull microscope shows that the image sensor is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera, as anticipated. A quick look at the front of the PCB shows that STRB and TADD pins, which allows access to the advanced functions via additionnal registers, are just not connected (these are the two pins connected to the round test pads). As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor. It's a bit deceptive to be honest.
 
 ![](/Pictures/Lapochee_empty_shell_2.jpg)
-A quick look at the empty shell after disassembly. Reassembly is quick and simple in few minutes.
+A quick look at the empty shell after disassembly. Reassembly is quick and simple in few minutes. Nothing was broken because good engineering.
 
-To be continued if I find a replacement LCD or the motivation to replace the back polarizer...
+To be continued if I find a replacement LCD or the motivation to replace the polarizers...
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
