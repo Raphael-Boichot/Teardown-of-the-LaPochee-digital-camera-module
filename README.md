@@ -31,8 +31,6 @@ PDZ43 must be the Mitsubishi factory name of the LaPochée module. I guess it re
 The device is supposed to work with 2xAAA batteries which was a very fancy norm before the flooding of market with shitty lithium batteries. Because yes, we were yet able to use AAA rechargeable batteries (and reuse them elsewhere) in these old times.
 
 ![](/Pictures/Lapochée_main_board_with_LCD_mounted.JPG)
-Front side of the PCB with the LCD mounted on brackets. A black rubber damper ensure a very tight fit within the shell in case of shock.
-
 ![](/Pictures/Lapochée_head_assembly_2.JPG)
 The device opens by removing four annoying 3-wings screw similar to any Nintendo products from that era. The rotating head itself has two similar screws. I guess this was a common trick in Japan to discourage user to sneak inside electronic products.
 
@@ -46,7 +44,7 @@ At this step removing the main PCB is very easy. The front side mainly features 
 Some details of the bottom serial connector. It's not a socket I know, maybe something custom.
 
 ![](/Pictures/Lapochée_main_board_with_LCD.JPG)
-The LCD assembly can be easily removed from the main PCB by just unclipping it. Nothing is glued. It is clearly meant to be repairable.
+Front side of the PCB with the LCD mounted on brackets. A black rubber damper ensure a very tight fit within the shell in case of shock. The LCD assembly can be easily removed from the main PCB by just unclipping it. Nothing is glued. It is clearly meant to be repairable.
 
 ![](/Pictures/Lapochée_PCB_rear.JPG)
 The rear side contains all the meat: LCD assembly, flash memory and main MCU. The flash memory is a 4MB / 3.3V only [M5M29KB800](/Datasheets/Renesas_M5M29KB.PDF) from Mitsubishi, commonly used in mobile phones from that era. The MCU is a 10 MHz 16-bit [M30610MCA](/Datasheets/Renesas_M5M29KB.PDF) microcontroller, also from Mitsubishi. The marking indicates that this is a 128 KB ROM, 10 KB RAM, mask ROM version 282. Pins are 5V tolerant. This MCU also has several 10 bits analog to digital converters so I guess the sensor is directly driven by this chip, nothing else is required. 
