@@ -67,7 +67,7 @@ The sensor uses a 9 wires connections.
 
 ![](/Pictures/Lapochee_sensor_PCB_rear.jpg)
 ![](/Pictures/Lapochee_sensor_PCB_front_M64283FP.jpg)
-The PCB comprises two caps and one inductance, similar to the Game Boy Camera. I guess this is exactly the same electrical circuit. The two round test pads are connected to floating pins pin (see next). Strangely enough, one pin has solder residues (maybe accidental).
+The PCB comprises two caps and one inductance, similar to the Game Boy Camera. I guess this is exactly the same electrical circuit. The two round test pads are connected to floating pins (see next, this is interesting). Strangely enough, one pin has solder residues (maybe accidental).
 
 The marking RF131111B (+AR SUB) is also written near the LCD ribbon socket on the main PCB (+AR MAIN) so I guess this is an internal reference number for the project.
 
