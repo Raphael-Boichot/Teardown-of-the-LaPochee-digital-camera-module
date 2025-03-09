@@ -31,8 +31,10 @@ PDZ43 must be the Mitsubishi factory name of the LaPochée module. I guess it re
 The device is supposed to work with 2xAAA batteries which was a very fancy norm before the flooding of market with shitty lithium batteries. Because yes, we were yet able to use AAA rechargeable batteries (and reuse them elsewhere) in these old times.
 
 ![](/Pictures/Lapochée_main_board_with_LCD_mounted.JPG)
+The device opens by removing four annoying 3-wings screw similar to any Nintendo products from that era. I guess this was a common trick in Japan to discourage user to sneak inside electronic products.
+
 ![](/Pictures/Lapochée_head_assembly_2.JPG)
-The device opens by removing four annoying 3-wings screw similar to any Nintendo products from that era. The rotating head itself has two similar screws. I guess this was a common trick in Japan to discourage user to sneak inside electronic products.
+The rotating head itself has two similar screws to remove in order to see the inside. Similarity with the Game Boy camera is immediately striking.
 
 ![](/Pictures/Lapochée_empty_head_2.JPG)
 You can easily go further in the head assembly / disassembly if you are familiar with the Game Boy Camera. It feel better than a Game Boy Camera thanks to two prongs on the metal ring that safely position the head in normal or selfy position. The design is more refined, while very similar. The sensor ribbon socket is smaller than the Game Boy Camera (must be a JST connector with 1 mm pitch).
