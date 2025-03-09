@@ -67,10 +67,10 @@ The sensor uses a 9 wires connections.
 
 ![](/Pictures/Lapochee_sensor_PCB_rear.jpg)
 ![](/Pictures/Lapochee_sensor_PCB_front_M64283FP.jpg)
-The PCB comprises two caps and one inductance, similar to the Game Boy Camera. I guess this is exactly the same electrical circuit. The two round test pads are connected to STRB and TADD pin (see next). Strangely enough, the TADD pin has solder residues (maybe accidental).
+The PCB comprises two caps and one inductance, similar to the Game Boy Camera. I guess this is exactly the same electrical circuit. The two round test pads are connected to floating pins pin (see next). Strangely enough, one pin has solder residues (maybe accidental).
 
 ![](/Pictures/Lapochee_sensor_reference.png)
-A quick look under a powerfull microscope shows that this is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera. A quick look at the front of the PCB shows that STRB and TADD pins which allows access to advanced functions, are just not connected. As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor.
+A quick look under a powerfull microscope shows that this is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera. A quick look at the front of the PCB shows that STRB and TADD pins which allows access to advanced functions, are just not connected (these are the two pins connected to the round test pads). As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor.
 
 Without any way of firing the device, I cannot investigate more.
 
