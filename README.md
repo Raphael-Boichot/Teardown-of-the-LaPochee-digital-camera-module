@@ -2,7 +2,7 @@
 
 The **Lapochée** is a digital camera module accompanying the THZ43 Chiaro mobile phone released in May 1999 by the Tu-Ka mobile phone company and operator (then merged in KDDI Corporation). Both phone and camera module were made by Mitsubishi. This was technically the **first case of mobile phone equipped with a digital camera** (and among the first low-end market digital cameras too).
 
-Fun fact, "LaPochée" is probably a name designed to sound cute and French but it means nothing in French apart an approximate translation of "The pocket" ("La Poche"). And it sounds a bit off in French.
+Fun fact, "LaPochée" is probably a name designed to sound cute and French. It is an approximate translation of "The pocket" ("La Poche") and sounds a bit weird in French.
 
 The LaPochée camera module acquired a certain celebrity in the Game Boy Camera nerds community as it shows a potential hardware filiation with the Game Boy Camera according to various Mitsibishi sources frome 1999-2000. It might or might not share the same analog light sensor from the M6428X series. I tried to find this camera module for years. By the time, addict to old electronic stuff I landed on some M64283FP sensors from factory (possibly used in the LaPochée) by pure luck and published [Arduino codes codes to drive them](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor). The M64283FP sensor is basically a Game Boy Camera M64282FP sensor with more functions, but pin compatible. You will see why I insist on this sensor later.
 
