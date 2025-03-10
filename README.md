@@ -2,11 +2,11 @@
 
 The **Lapochée** is a digital camera module accompanying the THZ43 Chiaro mobile phone released in May 1999 by the Tu-Ka mobile phone company and operator (then merged in KDDI Corporation). Both phone and camera module were made by Mitsubishi. This was technically the **first case of mobile phone equipped with a digital camera** (and among the first low-end market digital cameras too).
 
-Fun fact, "LaPochée" is probably a name designed to sound cute and French. It is an approximate translation of "The pocket" ("La Poche") and sounds a bit weird in French.
-
 The LaPochée camera module acquired a certain celebrity in the Game Boy Camera nerds community as it shows a potential hardware filiation with the Game Boy Camera according to various Mitsibishi sources frome 1999-2000. It might or might not share the same analog light sensor from the M6428X series. I tried to find this camera module for years. By the time, addict to old electronic stuff, I obtained some M64283FP sensors from factory (possibly used in the LaPochée) by pure luck and published [Arduino codes codes to drive them](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor). The M64283FP sensor is basically a Game Boy Camera M64282FP sensor with more functions, but pin compatible. You will see why I insist on this sensor later.
 
 I finally got the Lapochée camera module in March 2025 thanks to a local contact in Japan (see aknowledgments). The device was advertised as electronic junk but in pristine state according to seller images. It was delivered in its factory plastic bag still with the protective film on front face ([click here for some ASMR](/Pictures/Lapochee_ASMR.mp4)). Sadly for me, the LCD display was burnt beyond repair for my current skill (both polarizers are completely dark). This is common with old Japanese electronic products and due to overheating / violent sun exposure. 
+
+Fun fact, "LaPochée" is probably a name designed to sound cute and French. It is an approximate translation of "The pocket" ("La Poche"). It uses the same acute accent than in "Pokémon", just to annoy the English speakers.
 
 I do not own the user manual but I am in search for it (feel free to contact me if you have one or a scan).
 
