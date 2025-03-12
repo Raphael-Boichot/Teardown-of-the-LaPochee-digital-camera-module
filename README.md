@@ -1,6 +1,6 @@
 # Teardown of the LaPochée（ラポッシュ）digital camera module
 
-The **Lapochée** is a digital camera module accompanying the THZ43 Chiaro mobile phone released in May 1999 by the Tu-Ka mobile phone company and operator (then merged in KDDI Corporation). Both phone and camera module were made by Mitsubishi. This was technically the **first case of mobile phone equipped with a digital camera** (and among the first low-end market digital cameras too).
+The **PDZ43 Lapochée** is a digital camera module accompanying the **THZ43 Chiaro** mobile phone released in May 1999 by the Tu-Ka mobile phone company and operator (then merged in KDDI Corporation). Both phone and camera module were made by Mitsubishi. This was technically the **first case of mobile phone equipped with a digital camera** (and among the first low-end market digital cameras too).
 
 The LaPochée camera module acquired a certain celebrity in the Game Boy Camera nerds community as it shows a potential hardware filiation with the Game Boy Camera according to various Mitsibishi sources frome 1999-2000. It might or might not share the same analog light sensor from the M6428X series. I tried to find this camera module for years. By the time, addict to old electronic stuff, I obtained some M64283FP sensors from factory (possibly used in the LaPochée) by pure luck and published [Arduino codes codes to drive them](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor). The M64283FP sensor is basically a Game Boy Camera M64282FP sensor with more functions, but pin compatible. You will see why I insist on this sensor later.
 
@@ -27,7 +27,7 @@ The bottom shows the communication port with the mobile phone. It's not a common
 The back side shows the battery compartment and a 3 positions stand. Not sure why the stand is longer than the device itself. Design I guess. The camera was probably thought to be conspicuously shown hanging from a shirt pocket. I have no shirt to try.
 
 ![](/Pictures/Lapochee_rear_open.jpg)
-PDZ43 must be the Mitsubishi factory name of the LaPochée module. I guess it is referenced as it into the user manual.
+PDZ43 is Mitsubishi factory name of the LaPochée module. Surprisingly, it is reference as 71PDZ43 on the [original packaging](/Pictures_from_auction_sites/Aucfan_packaging_4.jpg)
 
 ![](/Pictures/Lapochee_2xAAA_batteries.jpg)
 The device is supposed to work with 2xAAA batteries which was a very fancy norm before the flooding of market with shitty lithium batteries. Because yes, we were yet able to use AAA rechargeable batteries (and reuse them elsewhere) in these old times.
