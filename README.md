@@ -4,7 +4,7 @@ The **PDZ43 Lapochée** is a digital camera module accompanying the **THZ43 Chia
 
 The LaPochée camera module acquired a certain celebrity in the Game Boy Camera nerds community as it shows a potential hardware filiation with the Game Boy Camera according to various Mitsibishi sources frome 1999-2000. It might or might not share the same analog light sensor from the M6428X series. I tried to find this camera module for years. By the time, addict to old electronic stuff, I obtained some M64283FP sensors from factory (possibly used in the LaPochée) by pure luck and published [Arduino codes codes to drive them](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor). The M64283FP sensor is basically a Game Boy Camera M64282FP sensor with more functions, but pin compatible. You will see why I insist on this sensor later.
 
-I finally got the Lapochée camera module in March 2025 thanks to a local contact in Japan (see aknowledgments). The device was advertised as electronic junk but in pristine state according to seller images. It was delivered in its factory plastic bag still with the protective film on front face ([click here for some ASMR](/Pictures/Lapochee_ASMR.mp4)). Sadly for me, the LCD display was burnt beyond repair for my current skill (both polarizers are completely dark). This is common with old Japanese electronic products and due to overheating / violent sun exposure. 
+I finally got the Lapochée camera module in March 2025 thanks to a local contact in Japan (see aknowledgments). The device was advertised as electronic junk but in pristine state according to seller images. It was delivered in its factory plastic bag still with the protective film on front face ([click here for some ASMR](/Pictures/Lapochee_ASMR.mp4)). Sadly for me, the device required changing the two LCD polarizers and even after that, did not boot and draws nothing even connected to a stabilized power supply, so I cannot test it for real. 
 
 Fun fact, "LaPochée" is probably a name designed to sound cute and French. It is an approximate translation of "The pocket" ("La Poche"). It uses the same acute accent than in "Pokémon", just to annoy the English speakers.
 
@@ -79,7 +79,7 @@ A quick look under a powerfull microscope shows that the image sensor is a 128x1
 ![](/Pictures/Lapochee_empty_shell_2.jpg)
 A quick look at the empty shell after disassembly. Reassembly is quick and simple in few minutes. Nothing was broken because good engineering.
 
-To be continued if I find a replacement LCD or the motivation to replace the polarizers...
+To be continued if I find further informations...
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
