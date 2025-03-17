@@ -21,13 +21,13 @@ The device exudes the 2000s with its white round design and the touch of blue tr
 The right side features the on/off button and a contrast thumbwheel for the display. The device has no LED or speaker / buzzer to indicate its state. It's completely mute.
 
 ![](/Pictures/Lapochee_bottom.jpg)
-The bottom shows the communication port with the mobile phone. It's not a common plug, I have no idea what it is for the moment.
+The bottom shows the communication port with the mobile phone. It's not a common plug, I have no idea what it is for the moment (see next for closer picture without the cap).
 
 ![](/Pictures/Lapochee_rear_2.jpg)
 The back side shows the battery compartment and a 3 positions stand. Not sure why the stand is longer than the device itself. Design I guess. The camera was probably thought to be conspicuously shown hanging from a shirt pocket. I have no shirt to try.
 
 ![](/Pictures/Lapochee_rear_open.jpg)
-PDZ43 is Mitsubishi factory name of the LaPochée module. Surprisingly, it is reference as 71PDZ43 on the [original packaging](/Pictures_from_auction_sites/Aucfan_packaging_4.jpg)
+PDZ43 is Mitsubishi factory name of the LaPochée module. Surprisingly, it is reference as 71PDZ43 on the [original packaging](/Pictures_from_auction_sites/Aucfan_packaging_4.jpg).
 
 ![](/Pictures/Lapochee_2xAAA_batteries.jpg)
 The device is supposed to work with 2xAAA batteries which was a very fancy norm before the flooding of market with shitty lithium batteries. Because yes, we were yet able to use AAA rechargeable batteries (and reuse them elsewhere) in these old times.
@@ -42,18 +42,18 @@ The rotating head itself has two similar screws to remove in order to see the in
 You can easily go further in the head assembly / disassembly if you are familiar with the Game Boy Camera. It feels better than a Game Boy Camera thanks to two prongs on the metal ring that safely position the head in normal or selfy position. The design is more refined, while very similar. The sensor ribbon socket is smaller than the Game Boy Camera (must be a JST connector with 1 mm pitch).
 
 ![](/Pictures/Lapochee_PCB_front.jpg)
-At this step removing the main PCB is very easy. The back side mainly features a Mitsubishi M64916FP chip and an oscillating crystal (6.898594 MHz probably). Although sharing the numbering of Mitsubishi chips (FP termination seems to be used for home appliance, M64 is a common prefix of several Mitsubishi chips), this chip is not documented anywhere. By tracing some connections I conclude that this is probably a custom driver chip for the LCD display and not some kind of MAC-GBD like chip driving the sensor, despite the packaging similarity.
+At this step removing the main PCB is very easy. The back side mainly features a Mitsubishi M64916FP chip and an oscillating crystal (6.898594 MHz probably). Although sharing the numbering of Mitsubishi chips (FP termination seems to be used for home appliance, M64 is a common prefix of several Mitsubishi chips from that era), this chip is not documented anywhere. By tracing some connections I conclude that this is probably a custom driver chip for the LCD display and not some kind of MAC-GBD like chip driving the sensor, despite the packaging similarity. This chip would deserve a decapping to see what's inside, maybe in the future.
 
 ![](/Pictures/Lapochee_serial_8_pins_connection.jpg)
 Some details of the bottom serial connector with the plastic plug removed. It's probably proprietary. It features 8 pins.
 
 ![](/Pictures/Lapochee_main_board_with_LCD.jpg)
-Front side of the PCB with the LCD mounted on brackets. A black rubber damper ensure a very tight fit within the shell in case of shock. The LCD assembly can be easily removed from the main PCB by just unclipping it. Nothing is glued. It is clearly meant to be easily repairable. As you can see, the LCD display had better days...
+Front side of the PCB with the LCD mounted on brackets. A black rubber damper ensure a very tight fit within the shell in case of shock. The LCD assembly can be easily removed from the main PCB by just unclipping it. Nothing is glued. It is clearly meant to be easily repairable. As you can see, the LCD display had better days. Both polarizers were dead.
 
 ![](/Pictures/Lapochee_PCB_rear.jpg)
-The front PCB side (below the LCD display) contains all the meat: LCD voltage driver, flash memory and microcontroller. The flash memory is a 4MB / 3.3V only [M5M29KB800](/Datasheets/Renesas_M5M29KB.PDF) from Mitsubishi, commonly used in mobile phones from that era. The main chip is a 7 to 10 MHz 16-bit [M30610MCA](/Datasheets/Renesas_M5M29KB.PDF) microcontroller, also from Mitsubishi. The marking indicates that this is the 128 KB ROM, 10 KB RAM, mask ROM version 282. This microcontroller also has several 10 bits analog-to-digital converters (A/C) so I guess that the sensor is directly driven by this chip in input / output, nothing else inbetween is required. 
+The front PCB side (below the LCD display) contains all the meat: LCD voltage driver, flash memory and microcontroller. The flash memory is a 4MB / 3.3V only [M5M29KB800](/Datasheets/Renesas_M5M29KB.PDF) from Mitsubishi, commonly used in mobile phones from that era. The main chip is a 7 to 10 MHz 16-bit [M30610MCA](/Datasheets/Renesas_M5M29KB.PDF) microcontroller, also from Mitsubishi. The marking indicates that this is the 128 KB ROM, 10 KB RAM, mask ROM version 282. This microcontroller also has several 10 bits analog-to-digital converters (A/C or ADC) so I guess that the sensor is directly driven by this chip in input / output, nothing else inbetween is required. I do not see any external ADC anyway.
 
-The last noticeable chip is the Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The only information I can find is that this is a divided voltage generator for LCD drive, so the chip that sends the high voltage signal to the display individual pixels to twist more or less the liquid crystals. This indicates that the LCD can display several gray levels. A high voltage generator circuitry must be present somewhere on the PCB (LCD may require about 20V).
+The last noticeable chip is the Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The only information I can find is that this is a divided voltage generator for LCD drive, so the chip that sends the high voltage signal to the display individual pixels to twist more or less the liquid crystals. This indicates that the LCD can display several gray levels. A "high voltage" generator circuitry must be present somewhere on the PCB (LCD may require about 20V).
 
 ![](/Pictures/Lapochee_LCD_rear.jpg)
 The display assembly is very easy to dismount and neatly designed. The LCD is a 128x128 pixels Sharp T2 V M1128CP with a 24 pins ribbon connector, probably manufactured in March 1999. I do not find any datasheet for this display. Mine is defective and stay completely dark even with the front polarizer removed. I have very thin hope to find a replacement or a compatible one due to the absence of datasheet for both the LCD and the M64916FP driver chip. They both can be totally custom for this device.
@@ -71,15 +71,15 @@ AR SUB is for "Artificial Retina" sub board. All sensors from the M6428X series 
 ![](/Pictures/Lapochee_sensor_PCB_front_M64283FP.jpg)
 The PCB comprises two caps and one inductance, similar to the Game Boy Camera. I guess this is exactly the same electrical circuit. The two round test pads are connected to floating pins (see next, this is interesting). Strangely enough, one pin has solder residues (maybe accidental).
 
-The marking RF131111B (+AR SUB) is also written near the LCD ribbon socket on the main PCB (+AR MAIN) so I guess this is an internal reference number for the project.
+The marking RF131111B (+AR SUB) is also written near the LCD ribbon socket on the main PCB (+AR MAIN) so I guess this is an internal reference number for the PCB layout.
 
 ![](/Pictures/Lapochee_sensor_reference.png)
-A quick look under a powerfull microscope shows that the image sensor is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera, as anticipated. A quick look at the front of the PCB shows that STRB and TADD pins, which allows access to the advanced functions via additionnal registers, are just not connected (these are the two pins connected to the round test pads). As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor. It's a bit deceptive to be honest.
+A quick look under a powerfull microscope shows that the image sensor is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera, as anticipated. A quick look at the front of the PCB shows that STRB and TADD pins, which allows access to the advanced functions via additionnal registers, are just not connected (these are the two pins connected to the round test pads). As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor. It's a bit deceptive to be honest, but it indicates that management strategy must be close to the Game Boy Camera sensor as registers sent must be similar by design.
 
 ![](/Pictures/Lapochee_empty_shell_2.jpg)
 A quick look at the empty shell after disassembly. Reassembly is quick and simple in few minutes. Nothing was broken because good engineering. The repository contains additional images not displayed here, do not hesistate to check.
 
-To be continued if I find further informations...
+To be continued if I find further informations like the user manual for example...
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
