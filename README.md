@@ -77,9 +77,9 @@ The marking RF131111B (+AR SUB) is also written near the LCD ribbon socket on th
 A quick look under a powerfull microscope shows that the image sensor is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera, as anticipated. A quick look at the front of the PCB shows that STRB and TADD pins, which allows access to the advanced functions via additionnal registers, are just not connected (these are the two pins connected to the round test pads). As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor. It's a bit deceptive to be honest, but it indicates that management strategy must be close to the Game Boy Camera sensor as registers sent must be similar by design.
 
 ![](/Pictures/Lapochee_empty_shell_2.jpg)
-A quick look at the empty shell after disassembly. Reassembly is quick and simple in few minutes. Nothing was broken because good engineering. The repository contains additional images not displayed here, do not hesistate to check.
+A quick look at the empty shell after disassembly. Reassembly is quick and simple in few minutes. Nothing was broken because good engineering. 
 
-To be continued if I find further informations like the user manual for example...
+The repository contains additional images not displayed here, do not hesistate to check. To be continued if I find further informations like the user manual or a new working device for example...
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
