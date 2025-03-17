@@ -8,7 +8,7 @@ I finally got the Lapochée camera module in March 2025 thanks to a local contac
 
 Fun fact, "LaPochée" is probably a name designed to sound cute and French. It is an approximate translation of "The pocket" ("La Poche"). It uses the same acute accent than in "Pokémon", just to annoy the English speakers.
 
-I do not own the user manual but I am in search for it (feel free to contact me if you have one or a scan).
+I do not own the user manual but I am in search for it (feel free to contact me if you have one or a scan, I would be glad to credit you).
 
 But I guess you landed here for some good old vintage electronic porn and not to read a draw my life. Let's dive into the beast !
 
@@ -77,7 +77,7 @@ The marking RF131111B (+AR SUB) is also written near the LCD ribbon socket on th
 A quick look under a powerfull microscope shows that the image sensor is a 128x128 pixels [M64283FP](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor) sensor, successor of the M64282FP sensor used in the Game Boy Camera, as anticipated. A quick look at the front of the PCB shows that STRB and TADD pins, which allows access to the advanced functions via additionnal registers, are just not connected (these are the two pins connected to the round test pads). As the Lapochée module is advertised as taking [96x96 pixels images](https://pc.watch.impress.co.jp/docs/article/990413/tu_ka.htm) (1 bpp or 2 bpp), this implies that images are cropped by software and not by using the random access mode of the sensor. It's a bit deceptive to be honest.
 
 ![](/Pictures/Lapochee_empty_shell_2.jpg)
-A quick look at the empty shell after disassembly. Reassembly is quick and simple in few minutes. Nothing was broken because good engineering.
+A quick look at the empty shell after disassembly. Reassembly is quick and simple in few minutes. Nothing was broken because good engineering. The repository contains additional images not displayed here, do not hesistate to check.
 
 To be continued if I find further informations...
 
