@@ -85,5 +85,5 @@ The repository contains additional images not displayed here, do not hesistate t
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
 
 # Acknowledgements
-- Author want to warmly thank **Frédéric Mercier** for the finding of the Lapochée camera module on Mercari in Japan (and some other rare stuff).
+- Author wants to warmly thank **Frédéric Mercier** for the finding of the Lapochée camera module on Mercari in Japan (and some other rare stuff).
 - Thanks also to Razole for providing me some factory sealed M64283FPs from under the counter.
