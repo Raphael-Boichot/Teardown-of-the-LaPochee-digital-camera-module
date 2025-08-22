@@ -56,7 +56,7 @@ The front PCB side (below the LCD display) contains all the meat: LCD voltage dr
 The last noticeable chip is the Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The only information I can find is that this is a divided voltage generator for LCD drive, so the chip that sends the high voltage signal to the display individual pixels to twist more or less the liquid crystals. This indicates that the LCD can display several gray levels. A "high voltage" generator circuitry must be present somewhere on the PCB (LCD may require about 20V).
 
 ![](/Pictures/Lapochee_LCD_rear.jpg)
-The display assembly is very easy to remove and neatly designed. The LCD is a 128x128 pixels Sharp T2 V M1128CP with a 24 pins ribbon connector, probably manufactured in March 1999. I do not find any datasheet for this display. Mine is defective and stay completely dark even with the front polarizer removed. I have very thin hope to find a replacement or a compatible one due to the absence of datasheet for both the LCD and the M64916FP driver chip. They both can be totally custom for this device.
+The display assembly is very easy to remove and neatly designed. The LCD is a 128x128 pixels Sharp T2 V M1128CP with a 24 pins ribbon connector, probably manufactured in March 1999. I do not find any datasheet for this display. I've replaced both polarizers on mine because both were completely burnt but due to the fact the device does not fire anyway for electrical reasons, it just revealed screen rot.
 
 ![](/Pictures/Lapochee_lens_front.jpg)
 ![](/Pictures/Lapochee_lens_rear.jpg)
