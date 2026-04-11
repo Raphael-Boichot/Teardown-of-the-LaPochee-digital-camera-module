@@ -51,7 +51,7 @@ Some details of the bottom serial connector with the plastic plug removed. It's 
 Front side of the PCB with the LCD mounted on brackets. A black rubber damper ensures a very tight fit within the shell in case of shock. The LCD assembly can be easily removed from the main PCB by just unclipping it. Nothing is glued. It is clearly meant to be easily repairable. As you can see, the LCD display had better days. Both polarizers were dead.
 
 ![](/Pictures/Lapochee_PCB_rear.jpg)
-The front PCB side (below the LCD display) contains all the meat: LCD voltage driver, flash memory and microcontroller. The flash memory is a 4MB / 3.3V only [M5M29KB800](/Datasheets/Renesas_M5M29KB.PDF) from Mitsubishi, commonly used in mobile phones from that era. The main chip is a 7 to 10 MHz 16-bit [M30610MCA](/Datasheets/Renesas_M5M29KB.PDF) microcontroller, also from Mitsubishi. The marking indicates that this is the 128 KB ROM, 10 KB RAM, mask ROM version 282. This microcontroller also has several 10 bits analog-to-digital converters (A/C or ADC) so I guess that the sensor is directly driven by this chip in input / output, nothing else inbetween is required. I do not see any external ADC anyway.
+The front PCB side (below the LCD display) contains all the meat: LCD voltage driver, flash memory and microcontroller. The flash memory is a 1MB / 3.3V only [M5M29KB800](/Datasheets/Renesas_M5M29KB.PDF) from Mitsubishi, commonly used in mobile phones from that era. The main chip is a 7 to 10 MHz 16-bit [M30610MCA](/Datasheets/Renesas_M5M29KB.PDF) microcontroller, also from Mitsubishi. The marking indicates that this is the 128 KB ROM, 10 KB RAM, mask ROM version 282. This microcontroller also has several 10 bits analog-to-digital converters (A/C or ADC) so I guess that the sensor is directly driven by this chip in input / output, nothing else inbetween is required. I do not see any external ADC anyway.
 
 The last noticeable chip is the Sharp [IR3E05](/Datasheets/Sharp_IR3E05.pdf). The only information I can find is that this is a divided voltage generator for LCD drive, so the chip that sends the high voltage signal to the display individual pixels to twist more or less the liquid crystals. This indicates that the LCD can display several gray levels. A "high voltage" generator circuitry must be present somewhere on the PCB (LCD may require about 20V).
 
@@ -83,14 +83,18 @@ The repository contains additional images not displayed here, do not hesitate to
 
 # Edit 2026: some captures of the interface
 
-So, after procrastinating two years to fix the device, I finally found time and motivation to repair it. Basically, I had no connection between the ON/OFF power swith pads and the 3V rail on the PCB. What is puzzling is that nothing is broken or missing apparently, there was just no trace to connect battery to PCB. After some educated guesses, I have injected 3V from a power supply in current limitation on what looked like a large trace close to the ON/OFF switch and it fires to my great surprise. A bodge wire later, the device is usable.
+So, after procrastinating one (two ?) years to fix the device, I finally found time and motivation to repair it. Basically, I had no connection between the ON/OFF power swith pads and the 3V rail on the PCB. What is puzzling is that nothing is broken or missing apparently, there was just no trace to connect battery to PCB. After some educated guesses, I have injected 3V from a power supply in current limitation on what looked like a large trace close to the ON/OFF switch and it fires to my great surprise. A bodge wire later, the device is usable.
 
 The screen contrast is as bad as a Game Boy DMG so taking pictures from it requires full sun. Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. So animations here is the best I can do. Translation was made with Gemini, the original menus are of course in Japanese.
 
-I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface. It wouldn’t surprise me if the folks at Creatures—the ones behind the Game Boy Camera—had a hand in it. I did not find any credits however.
-
 ## Main menu
 ![](/Pictures_from_interface/Main_menu.gif)
+
+Some more details :
+- the device can store 100 images in 96x96 pixels but I have no idea of the color depth due to the absurdly bad quality of the display. It *looks* non dithered from what I can see. Technically, the 1MB flash chip can easily store 100 images in 8 bpp.
+- the transfer / receive is of course not operational as the device tries a handshake first. The images can anyway be sent with a short pre-set message.
+- the pîcture options are basically similar to a Game Boy Camera with special stretching effects, negative, zoom, etc.
+- I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface. It wouldn’t surprise me if the folks at Creatures—the ones behind the Game Boy Camera—had a hand in it. I did not find any form of credits to confirm however, it's pure science fiction.
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
