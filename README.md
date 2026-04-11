@@ -87,7 +87,7 @@ So, after procrastinating one (two ?) years to fix the device, I finally found t
 
 The screen contrast is as bad as a Game Boy DMG so taking pictures from it requires full sun. Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. So animations here is the best I can do. Translation was made with Gemini, the original menus are of course in Japanese.
 
-## Main menu
+## Main menu (the one to take pictures)
 ![](/Pictures_from_interface/Main_menu.gif)
 
 Some more details :
