@@ -83,12 +83,12 @@ The repository contains additional images not displayed here, do not hesitate to
 
 # Edit 2026: some captures of the interface
 
-So, after procrastinating one (two ?) years to fix the device, I finally found time and motivation to repair it. Basically, I had no connection between the ON/OFF power swith pads and the 3V rail on the PCB. What is puzzling is that nothing is broken or missing apparently, there was just no trace to connect battery to PCB. After some educated guesses, I have injected 3V from a power supply in current limitation on what looked like a large trace close to the ON/OFF switch and it fires to my great surprise. A bodge wire later, the device is usable. I have no idea what was the cause (PCB with defect from factory or PCB delamination).
+So, after procrastinating one full year to fix the device, I finally found time and motivation. Basically, I had no connection between the ON/OFF power swith pads and the 3V rail on the PCB. What is puzzling is that nothing was broken or missing apparently (all components were tested good), there was just no trace to connect battery to PCB. After some educated guesses, I have injected 3V from a power supply in current limitation on what looked like a large trace close to the ON/OFF switch and it fires to my great surprise. A bodge wire later, the device is usable. I have no idea what was the cause (PCB with defect from factory or PCB delamination or whatever).
 
 ## Back from the dead ! (With its life support)
 ![](Pictures/Device_with_life_support.jpg)
 
-The screen contrast is as bad as a Game Boy DMG - no, largely worse than a DMG - so taking pictures from it requires full sun, no reflects and removing the shell. So animations proposed here is the best documentation I can do. Artist view of what could be an English menu was made with Gemini, the original menus are of course all in Japanese.
+The screen contrast is awful, even by comparison with a Game Boy DMG, so taking pictures from it requires full sun, no reflects and removing the shell to be as close as possible from the LCD surface. So animations proposed here is the best documentation I can do. Artist view of what could be an English menu was made with Gemini, the original menus are of course all in Japanese.
 
 ## Main menu (the one to take pictures)
 ![](/Pictures_from_interface/Main_menu.gif)
