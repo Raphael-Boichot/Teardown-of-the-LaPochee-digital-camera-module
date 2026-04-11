@@ -85,10 +85,10 @@ The repository contains additional images not displayed here, do not hesitate to
 
 So, after procrastinating one (two ?) years to fix the device, I finally found time and motivation to repair it. Basically, I had no connection between the ON/OFF power swith pads and the 3V rail on the PCB. What is puzzling is that nothing is broken or missing apparently, there was just no trace to connect battery to PCB. After some educated guesses, I have injected 3V from a power supply in current limitation on what looked like a large trace close to the ON/OFF switch and it fires to my great surprise. A bodge wire later, the device is usable.
 
-## Back from the dead !
+## Back from the dead ! (With its life support)
 ![](Pictures/Device_with_life_support.jpg)
 
-The screen contrast is as bad as a Game Boy DMG so taking pictures from it requires full sun. Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. So animations here is the best I can do. Translation was made with Gemini, the original menus are of course in Japanese.
+The screen contrast is as bad as a Game Boy DMG - no, largely worse than a DMG - so taking pictures from it requires full sun, no reflects and removing the shell. So animations proposed here is the best documentation I can do. Translation was made with Gemini, the original menus are of course in Japanese.
 
 ## Main menu (the one to take pictures)
 ![](/Pictures_from_interface/Main_menu.gif)
@@ -98,6 +98,8 @@ Some more details :
 - the transfer / receive is of course not operational as the device tries a handshake first. The images can anyway be sent with a short pre-set message.
 - the pîcture options are basically similar to a Game Boy Camera with special stretching effects, negative, zoom, etc.
 - I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface. It wouldn’t surprise me if the folks at Creatures—the ones behind the Game Boy Camera—had a hand in it. I did not find any form of credits to confirm however, it's pure science fiction.
+- Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. The exposure strategy of the La Pochée looks overall very unstable contrary to the one used in the Game Boy Camera.
+- I will probably expand these informations / animations with time.
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
