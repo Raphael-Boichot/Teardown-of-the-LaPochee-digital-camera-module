@@ -86,7 +86,7 @@ The repository contains additional images not displayed here, do not hesitate to
 So, after procrastinating one (two ?) years to fix the device, I finally found time and motivation to repair it. Basically, I had no connection between the ON/OFF power swith pads and the 3V rail on the PCB. What is puzzling is that nothing is broken or missing apparently, there was just no trace to connect battery to PCB. After some educated guesses, I have injected 3V from a power supply in current limitation on what looked like a large trace close to the ON/OFF switch and it fires to my great surprise. A bodge wire later, the device is usable.
 
 ## Back from the dead !
-![](Device_with_life_support.jpg)
+![](Pictures/Device_with_life_support.jpg)
 
 The screen contrast is as bad as a Game Boy DMG so taking pictures from it requires full sun. Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. So animations here is the best I can do. Translation was made with Gemini, the original menus are of course in Japanese.
 
