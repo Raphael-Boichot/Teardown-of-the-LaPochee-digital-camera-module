@@ -82,8 +82,15 @@ A quick look at the empty shell after disassembly. Reassembly is quick and simpl
 The repository contains additional images not displayed here, do not hesitate to check. To be continued if I find further information like the user manual or a new working device for example...
 
 # Edit 2026: some captures of the interface
-## Boot animation
-![](/Pictures_from_interface/Startup_animation.gif)
+
+So, after procrastinating two years to fix the device, I finally found time and motivation to repair it. Basically, I had no connection between the ON/OFF power swith pads and the 3V rail on the PCB. What is puzzling is that nothing is broken or missing apparently, there was just no trace to connect battery to PCB. After some educated guesses, I have injected 3V from a power supply in current limitation on what looked like a large trace close to the ON/OFF switch and it fires to my great surprise. A bodge wire later, the device is usable.
+
+The screen contrast is as bad as a Game Boy DMG so taking pictures from it requires full sun. Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. So animations here is the best I can do. Translation was made with Gemini, the original menus are of course in Japanese.
+
+I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface. It wouldn’t surprise me if the folks at Creatures—the ones behind the Game Boy Camera—had a hand in it. I did not find any credits however.
+
+## Main menu
+![](/Pictures_from_interface/Main_menu.gif)
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
