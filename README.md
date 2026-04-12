@@ -88,18 +88,18 @@ So, after procrastinating one full year to fix the device, I finally found time 
 ## Back from the dead ! (With its life support)
 ![](Pictures/Device_with_life_support.jpg)
 
-The screen contrast is awful, even by comparison with a Game Boy DMG, so taking pictures from it requires full sun, no reflects and removing the shell to be as close as possible from the LCD surface. So animations proposed here is the best documentation I can do. Artist view of what could be an English menu was made with Gemini, the original menus are of course all in Japanese.
+So, in hand, the screen contrast is awful, even by comparison with a Game Boy DMG, so taking pictures from it requires full sun, no reflects and removing the shell to be as close as possible from the LCD surface. Small animations proposed here are the best documentation I can do. Artist view of what could be an English menu was made with Gemini, the original menus are of course all in Japanese.
 
 ## Main menu (the one to take pictures)
 ![](/Pictures_from_interface/Main_menu.gif)
 
 Some more details :
 - my unit was probably new as the flash memory was empty and the protective screen cover never removed.
-- the device can store 100 images in 96x96 pixels but I have no idea of the color depth due to the absurdly bad quality of the display. It *looks* non dithered from what I can see. Technically, the 1MB flash chip can easily store 100 images in 8 bpp.
-- the transfer / receive is of course not operational as the device tries a handshake first. The images can anyway be sent with a short pre-set message.
-- the pîcture options are basically similar to a Game Boy Camera with special stretching effects, negative, zoom, etc.
-- I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface. It wouldn’t surprise me if the folks at Creatures—the ones behind the Game Boy Camera—had a hand in it. I did not find any form of credits to confirm however, it's pure science fiction.
-- Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. The exposure strategy of the La Pochée looks overall very unstable contrary to the one used in the Game Boy Camera.
+- the device can store 100 images in 96x96 pixels but I have no idea of the grayscale depth due to the absurdly bad quality of the display. It *looks* non dithered from what I can see. Technically, the 1MB flash chip can anyway easily store 100 images in 8 bpp.
+- the transfer / receive is of course not operational as the device tries a handshake with the mobile phone I do not own first. Looks like the images can be sent with a short pre-set message but It's buried in the menu.
+- the pîcture options are basically similar to a Game Boy Camera with special stretching effects, negative, zooming, etc.
+- I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface. It wouldn’t surprise me if the folks at Creatures had a hand in it. I did not find any form of credits to confirm however, it's pure science fiction.
+- Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. The exposure strategy of the La Pochée looks overall very unstable compared to the one used in the Game Boy Camera. It's mainly sensor related.
 - I will probably expand these informations / animations with time.
 
 # Credits
