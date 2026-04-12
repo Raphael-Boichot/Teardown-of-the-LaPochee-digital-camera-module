@@ -98,7 +98,7 @@ Some more details :
 - the device can store 100 images in 96x96 pixels but I have no idea of the grayscale depth due to the absurdly bad quality of the display. It *looks* non dithered from what I can see. Technically, the 1MB flash chip can anyway easily store 100 images in 8 bpp.
 - the transfer / receive is of course not operational as the device tries a handshake with the mobile phone I do not own first. Looks like the images can be sent with a short pre-set message but It's buried in the menu.
 - the pîcture options are basically similar to a Game Boy Camera with special stretching effects, negative, zooming, etc.
-- I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface. It wouldn’t surprise me if the folks at Creatures had a hand in it. I did not find any form of credits to confirm however, it's pure science fiction.
+- I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface (because kawaii UFO style). It wouldn’t surprise me if the folks at Creatures had a hand in it. I did not find any form of credits to confirm however, it's pure science fiction.
 - Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. The exposure strategy of the La Pochée looks overall very unstable compared to the one used in the Game Boy Camera. It's mainly sensor related.
 - I will probably expand these informations / animations with time.
 
