@@ -95,12 +95,13 @@ So, in hand, the screen contrast is awful, even by comparison with a Game Boy DM
 
 Some more details :
 - my unit was probably new as the flash memory was empty and the protective screen cover never removed.
-- the device can store 100 images in 96x96 pixels but I have no idea of the grayscale depth due to the absurdly bad quality of the display. It *looks* non dithered from what I can see. Technically, the 1MB flash chip can anyway easily store 100 images in 8 bpp.
-- the transfer / receive is of course not operational as the device tries a handshake with the mobile phone I do not own first. Looks like the images can be sent with a short pre-set message but It's buried in the menu.
-- the pîcture options are basically similar to a Game Boy Camera with special stretching effects, negative, zooming, etc.
-- I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface (because kawaii UFO style). It wouldn’t surprise me if the folks at Creatures had a hand in it. I did not find any form of credits to confirm however, it's pure science fiction.
-- Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. The exposure strategy of the La Pochée looks overall very unstable compared to the one used in the Game Boy Camera. It's mainly sensor related.
-- I will probably expand these informations / animations with time.
+- you can enter the date but I did not find trace of any RTC circuit at the moment. Maybe it was just a manual setting after all.
+- the device can store 100 images in 96x96 pixels but I have no idea of the grayscale depth due to the absurdly bad quality of the display. It *looks* like non dithered image from what I can see. Technically, the 1MB flash chip can anyway easily store 100 images in 8 bpp.
+- the transfer / receive is of course not operational as the device tries a handshake with the mobile phone I do not own in the first place (and won't, prices are just outrageous). I will perhaps try ty decipher the protocol just for fun in the future. The device tries to connect to the phone for several seconds before sending a picture so there must be some signal to grab from the serial with a datalogger and maybe a hackable protocol.
+- the pîcture options are basically similar to a Game Boy Camera with special stretching effects, negative, zooming, mirrors, binarization, etc. One fun option is to send a mosaic picture so that you are basically impossible to recognize.
+- I’m getting some serious [Chee-Chai Alien](https://en.wikipedia.org/wiki/Chee-Chai_Alien) vibes from the interface (because kawaii UFO style). It wouldn’t surprise me if the folks at Creatures had a hand in it. I did not find any form of credits to confirm however, it's pure science fiction. My knowledge in Japanese culture is too unsufficient to recognize any known license in the pixelm art.
+- Sensor is working as intended for a M64283FP, which means it is very unstable in full sun. The exposure strategy of the La Pochée looks overall very unstable compared to the one used in the Game Boy Camera. It's mainly sensor related, I had the exact same issue with the [DashBoy Camera](https://github.com/Raphael-Boichot/Mitsubishi-M64282FP-dashcam) and the [M64283FP sensor](https://github.com/Raphael-Boichot/Play-with-the-Mitsubishi-M64283FP-sensor).
+- I will probably expand these informations / animations with time. Documenting a niche of a niche has something fun.
 
 # Credits
 Please credit any image you publish / reuse from this repository like this: **Raphaël BOICHOT, 2025**. And give a link to this repository.
