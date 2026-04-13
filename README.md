@@ -90,7 +90,7 @@ So, after procrastinating one full year to fix the device, I finally found time 
 
 So, in hand, the screen contrast is awful, even by comparison with a Game Boy DMG, so taking pictures from it requires full sun, no reflects and removing the shell to be as close as possible from the LCD surface. Small animations proposed here are the best documentation I can do. Artist view of what could be an English menu was made with Gemini, the original menus are of course all in Japanese.
 
-## Main menu (the one to take pictures)
+## Boot animation and main menu (the one to take pictures)
 ![](/Pictures_from_interface/Main_menu.gif)
 
 Some more details :
