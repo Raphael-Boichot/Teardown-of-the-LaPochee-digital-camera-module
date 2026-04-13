@@ -85,12 +85,16 @@ The repository contains additional images not displayed here, do not hesitate to
 
 So, after procrastinating one full year to fix the device, I finally found time and motivation. Basically, I had no physical connection between the ON/OFF power slider pads and the 3V rail on the PCB. What is puzzling is that nothing was broken or missing apparently (all components were tested good), there was just no trace to connect battery to PCB. After some educated guesses, I have injected 3V from a power supply in current limitation on what looked like a large trace close to the ON/OFF switch and it fires to my great surprise. A bodge wire later, the device is usable. I have no idea what was the cause (PCB with defect from factory or PCB delamination or whatever).
 
-## Back from the dead ! (With its life support)
+## It was not an easy repair
+![](/Pictures/Lapochee_LCD_repair_1.jpg)
+Both polarizers were dead and these fuckers were stuck with a glue hard as rock after 25 years of neglect. Isopropnaol helped a lot.
+
+## But it's now back from the dead ! (With its life support)
 ![](Pictures/Device_with_life_support.jpg)
 
 So, in hand, the screen contrast is awful, even by comparison with a Game Boy DMG, so taking pictures from it requires full sun, no reflects and removing the shell to be as close as possible from the LCD surface. Small animations proposed here are the best documentation I can do. Artist view of what could be an English menu was made with Gemini, the original menus are of course all in Japanese.
 
-## Boot animation and main menu (the one to take pictures)
+## Boot animation and main menu (enjoy the screen rot)
 ![](/Pictures_from_interface/Main_menu.gif)
 
 Some more details :
